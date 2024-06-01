@@ -1,0 +1,126 @@
+/* styles.css */
+img {
+    border-radius: 10px;
+    width: max-content;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #202020;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .logo img.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebar .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e50914;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.movie-detail {
+    display: flex;
+    flex-direction: column;
+    background-image: Themebg_img1;
+}
+
+#font_1 {
+   width: fit-content;
+}
+.movie-header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.movie-header img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.movie-info {
+    max-width: 600px;
+    margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+.movie-info h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.movie-info .genre, .movie-info .rating {
+    margin: 5px 0;
+    color: #e50914;
+}
+
+.movie-info .description {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.details-btn {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #d40813;
+}
+
+.popular-movies h2 {
+    margin-top: 0;
+}
+
+.movies-grid {
+    display: flex;
+    gap: 10px;
+}
